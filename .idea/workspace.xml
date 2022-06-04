@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="def09990-5c4f-4e92-83c2-49603ee9edf4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="27whbIHJTDHGOD3ZFQ4LjPMsMsY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../todo_backend" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="irwing.moura.todo.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\repos\todo\src\main\java\irwing\moura\todo\teste" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TodoApplication">
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="irwing.moura.todo.controller.Teste" />
+      <module name="todo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="irwing.moura.todo.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="todo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="irwing.moura.todo.TodoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" temporary="true">
+      <settings run-config-name="Unnamed" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+      </settings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Teste" />
+        <item itemvalue="Diffblue Cover.Unnamed" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="def09990-5c4f-4e92-83c2-49603ee9edf4" name="Default Changelist" comment="" />
+      <created>1650237126029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650237126029</updated>
+      <workItem from="1650237127940" duration="9692000" />
+      <workItem from="1650287443809" duration="679000" />
+      <workItem from="1650309039358" duration="516000" />
+      <workItem from="1650318313798" duration="581000" />
+      <workItem from="1650368797956" duration="1003000" />
+      <workItem from="1650406942529" duration="8037000" />
+      <workItem from="1650427829861" duration="3265000" />
+      <workItem from="1650457606126" duration="7005000" />
+      <workItem from="1650843900325" duration="5750000" />
+      <workItem from="1650891823486" duration="3837000" />
+      <workItem from="1650911702199" duration="5242000" />
+      <workItem from="1650977556186" duration="41000" />
+      <workItem from="1650977637224" duration="1125000" />
+      <workItem from="1650999185641" duration="1584000" />
+      <workItem from="1651627166710" duration="6474000" />
+      <workItem from="1651670015593" duration="111000" />
+      <workItem from="1651715950282" duration="5163000" />
+      <workItem from="1651756115062" duration="112000" />
+      <workItem from="1652145549669" duration="676000" />
+      <workItem from="1652188802594" duration="1217000" />
+      <workItem from="1652230883296" duration="867000" />
+      <workItem from="1652275400460" duration="1983000" />
+      <workItem from="1652403522895" duration="1717000" />
+      <workItem from="1652448836926" duration="674000" />
+      <workItem from="1652581683162" duration="622000" />
+      <workItem from="1652631792626" duration="2067000" />
+      <workItem from="1652661475308" duration="2469000" />
+      <workItem from="1652710722940" duration="616000" />
+      <workItem from="1652751732182" duration="569000" />
+      <workItem from="1652752345616" duration="270000" />
+      <workItem from="1652753661909" duration="3645000" />
+      <workItem from="1652793567117" duration="624000" />
+      <workItem from="1652841337330" duration="718000" />
+      <workItem from="1652879529270" duration="60000" />
+      <workItem from="1653011402351" duration="994000" />
+      <workItem from="1653055922525" duration="547000" />
+      <workItem from="1653141426616" duration="1646000" />
+      <workItem from="1653312882536" duration="77000" />
+      <workItem from="1653313011247" duration="218000" />
+      <workItem from="1653528523848" duration="804000" />
+      <workItem from="1653535431747" duration="1571000" />
+      <workItem from="1653575463570" duration="54000" />
+      <workItem from="1653774467025" duration="3399000" />
+      <workItem from="1653840585549" duration="2661000" />
+      <workItem from="1653916942317" duration="127000" />
+      <workItem from="1653960828939" duration="5128000" />
+      <workItem from="1654003048575" duration="723000" />
+      <workItem from="1654139165343" duration="706000" />
+      <workItem from="1654206734792" duration="1799000" />
+      <workItem from="1654228386737" duration="742000" />
+      <workItem from="1654262354383" duration="340000" />
+      <workItem from="1654351831676" duration="1212000" />
+    </task>
+    <task id="LOCAL-00001" summary="teste">
+      <created>1650845423382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650845423382</updated>
+    </task>
+    <task id="LOCAL-00002" summary="teste intranet noticias">
+      <created>1650921554426</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650921554426</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1654373541255</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654373541255</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="teste" />
+    <MESSAGE value="teste intranet noticias" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+</project>
