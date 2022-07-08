@@ -44,7 +44,7 @@ public class ListService {
 
         java.util.List<Task> tasksAlteradas = new ArrayList<>();
 
-        if(list.getTasks().get(0) != null) {
+        if(!list.getTasks().isEmpty()) {
 
             for (Task task: list.getTasks()) {
 
@@ -79,7 +79,8 @@ public class ListService {
     }
 
     public void delete(Long id) {
-        listRepository.deleteById(id);
+
+        listRepository.delete(getOne(id));
     }
 
     public void deleteAll() {

@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def09990-5c4f-4e92-83c2-49603ee9edf4" name="Default Changelist" comment="" />
+    <list default="true" id="def09990-5c4f-4e92-83c2-49603ee9edf4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_backend/src/main/java/irwing/moura/todo/controller/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/todo_backend/src/main/java/irwing/moura/todo/controller/ListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_backend/src/main/java/irwing/moura/todo/model/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/todo_backend/src/main/java/irwing/moura/todo/model/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_backend/src/main/java/irwing/moura/todo/service/ListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/todo_backend/src/main/java/irwing/moura/todo/service/ListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo_frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_frontend/src/components/Notes/Notes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/todo_frontend/src/components/Notes/Notes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_frontend/src/components/Notes/Notes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/todo_frontend/src/components/Notes/Notes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_frontend/src/components/SideBar/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/todo_frontend/src/components/SideBar/SideBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_frontend/src/components/SideBar/SideBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/todo_frontend/src/components/SideBar/SideBar.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../todo_backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/todo_backend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -189,6 +199,10 @@
       <workItem from="1654228386737" duration="742000" />
       <workItem from="1654262354383" duration="340000" />
       <workItem from="1654351831676" duration="1212000" />
+      <workItem from="1654374187493" duration="155000" />
+      <workItem from="1654459367404" duration="233000" />
+      <workItem from="1654461919511" duration="623000" />
+      <workItem from="1657238858412" duration="223000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1650845423382</created>
@@ -211,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654373541255</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="version 1">
+      <created>1654374274012</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654374274012</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,11 +248,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="teste" />
     <MESSAGE value="teste intranet noticias" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="version 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1" />
   </component>
 </project>

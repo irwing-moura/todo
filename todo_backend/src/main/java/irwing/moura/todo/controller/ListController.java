@@ -50,16 +50,11 @@ public class ListController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<?> delete(@PathVariable Long id) {
+    public ResponseEntity<?> delete(@PathVariable("id") Long id) {
         service.delete(id);
         return ResponseEntity.noContent().build();
     }
 
-    @DeleteMapping
-    public ResponseEntity<?> deleteAll() {
-        service.deleteAll();
-        return ResponseEntity.noContent().build();
-    }
 
 }
 

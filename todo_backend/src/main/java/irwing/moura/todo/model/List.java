@@ -9,6 +9,8 @@ import org.springframework.data.annotation.Transient;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.ArrayList;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -26,4 +28,10 @@ public class List {
     @DBRef
     private java.util.List<Task> tasks;
 
+    public java.util.List<Task> getTasks() {
+        if(this.tasks == null) {
+            return new ArrayList<>();
+        }
+        return this.tasks;
+    }
 }

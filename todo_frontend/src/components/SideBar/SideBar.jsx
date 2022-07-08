@@ -28,9 +28,9 @@ function withRouter(Component) {
 }
 
 class SideBar extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   state = {
     list: [],
@@ -55,16 +55,20 @@ class SideBar extends Component {
   }
 
   async componentDidUpdate(prevOps) {
-
-
     //CONFIG PARA ALTERAR NOME TAMBEM NO SIDEBAR
     if (prevOps.router.params.listas !== undefined) {
       if (prevOps.router.params.listas !== this.state.list) {
         let listasAtualizadas = this.props.router.params.listas;
+        if (listasAtualizadas === undefined) {
+          listasAtualizadas = this.state.list;
+        }
         this.setState({
           list: listasAtualizadas,
         });
       }
+    } 
+    else {
+      this.loadAllLists();
     }
   }
 
@@ -91,6 +95,7 @@ class SideBar extends Component {
     let active = parseInt(window.location.pathname.replace("/list/", ""));
 
     const newList = async (evt) => {
+      debugger;
       evt.preventDefault();
       let list = {
         id: "",
@@ -125,7 +130,7 @@ class SideBar extends Component {
             />
           </MenuItem>
         </SidebarHeader>
-        <SidebarContent>
+        <SidebarContent id="conteudo">
           <Menu iconShape="round">
             {list?.map((index) => (
               <MenuItem
@@ -134,7 +139,7 @@ class SideBar extends Component {
                 active={index.id === active}
                 // suffix={<GrTrash/>}
               >
-                <NavLink  to={`/list/${encodeURIComponent(index.id)}`}>
+                <NavLink to={`/list/${encodeURIComponent(index.id)}`}>
                   {index.name}
                 </NavLink>
               </MenuItem>

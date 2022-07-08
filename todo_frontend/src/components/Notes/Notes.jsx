@@ -59,8 +59,12 @@ class Notes extends Component {
       // ATUALIZANDO ULTIMA LISTA - ACERTAR
       await api
         .put("/list/update-tasks", this.state.list)
-        .then(function (response) {})
-        .catch(function (error) {});
+        .then(function (response) {
+          console.log("atualizou anterior");
+        })
+        .catch(function (error) {
+          alert(error);
+        });
 
       const listId = this.props.router.params.listId;
       this.loadListDetails(decodeURIComponent(listId));
@@ -145,6 +149,8 @@ class Notes extends Component {
     let newList = list;
     newList.name = title;
 
+    //let items = [...this.state.list.tasks];
+
     this.setState({
       list: newList,
     });
@@ -156,6 +162,7 @@ class Notes extends Component {
 
     //CONFIG PARA ALTERAR NOME TAMBÉM NO SIDEBAR
     let propsListas = this.props.router.params.listas;
+    debugger;
     if (propsListas !== undefined) {
       propsListas.map((index, i) => {
         if (index.id === this.props.router.params.listActived.id) {
@@ -168,6 +175,12 @@ class Notes extends Component {
       });
     } else {
       propsListas = this.state.listaAtualizada;
+
+      if (propsListas.length === 0) {
+        const { data } = await api.get("/list");
+        propsListas = data;
+      }
+
       propsListas.map((index, i) => {
         if (index.id === this.props.router.params.listActived.id) {
           propsListas[i] = this.props.router.params.listActived;
@@ -259,6 +272,19 @@ class Notes extends Component {
     }
   }
 
+  async deleteList(list) {
+    //VAI PARA A PRIMEIRA LISTA
+    const response = await api.get("/list");
+    let listId = response.data[0].id;
+    let navigate = this.props.router.navigate;
+    navigate("/list/" + listId);
+
+    //DELETA A LISTA
+    await api.delete(`/list/${list.id}`);
+
+    toast.error("list deleted");
+  }
+
   render() {
     const { list } = this.state;
     return (
@@ -267,14 +293,20 @@ class Notes extends Component {
 
         <div className="container__note">
           <div className="content__note">
-            <input
-              className="title"
-              type="text"
-              maxLength={30}
-              id={list?.id}
-              value={list?.name}
-              onChange={(e) => this.saveTitle(e, list)}
-            />
+            <div className="div__title">
+              <input
+                className="title"
+                type="text"
+                maxLength={30}
+                id={list?.id}
+                value={list?.name}
+                onChange={(e) => this.saveTitle(e, list)}
+              />
+              <GrTrash
+                className="icon__trash"
+                onClick={() => this.deleteList(list)}
+              />
+            </div>
             <ul id="list">
               {list.tasks?.map((task, idx) => (
                 <li key={idx}>
