@@ -3,6 +3,7 @@
 
 Esta aplicação se trata de um "To Do List". Onde tem como objetivo organizar tarefas em forma de lista.
 
+![interface](https://github.com/irwing-moura/todo/blob/master/todo-demo.png?raw=true)
 
 ## Requisitos
 
